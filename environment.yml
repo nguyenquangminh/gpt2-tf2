@@ -1,0 +1,19 @@
+name: env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - cudatoolkit=10.1
+  - cudnn=7.6.4
+  - pandas
+  - tqdm
+  - pip
+  - pip:
+    - tensorflow==2.2.0
+    - tensorflow-gpu==2.2.0
+    - tensorflow-estimator==2.2.0
+    - toposort
+    - regex
+    - fire
+    - requests
